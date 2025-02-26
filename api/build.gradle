@@ -2,6 +2,7 @@ plugins {
 	id 'java'
 	id 'org.springframework.boot' version '3.4.3'
 	id 'io.spring.dependency-management' version '1.1.7'
+	id("org.springdoc.openapi-gradle-plugin") version "1.9.0"
 }
 
 group = 'com.cardapio360'
@@ -22,7 +23,9 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation 'org.springdoc:springdoc-openapi-ui:1.6.7'
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.8.5'
+	implementation 'org.hibernate.validator:hibernate-validator:7.0.4.Final'  // or the latest version
+    implementation 'jakarta.validation:jakarta.validation-api:2.0.2'  // Ja
 }
 
 tasks.named('test') {
