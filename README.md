@@ -22,7 +22,7 @@
 ## 🎯 Como Instalar
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seuusuario/cardapio360.git
+   git clone https://github.com/CaffeineIssues/cardapio360.git
    ```
 2. Acesse o diretório do projeto:
    ```bash
