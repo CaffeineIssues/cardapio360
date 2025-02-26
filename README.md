@@ -14,7 +14,7 @@
 
 ## 🛠️ Tecnologias Utilizadas
 - **Frontend**: Angular.JS
-- **Backend**: Java
+- **Backend**: Java(spring boot)
 - **Banco de Dados**: PostgreSQL / MongoDB
 - **Autenticação**: JWT
 - **Hospedagem**: AWS
