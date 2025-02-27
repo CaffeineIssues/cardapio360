@@ -24,8 +24,9 @@ dependencies {
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.8.5'
-	implementation 'org.hibernate.validator:hibernate-validator:7.0.4.Final'  // or the latest version
-    implementation 'jakarta.validation:jakarta.validation-api:2.0.2'  // Ja
+	implementation 'org.hibernate.validator:hibernate-validator:7.0.4.Final' 
+    implementation 'jakarta.validation:jakarta.validation-api:2.0.2'  
+  	implementation "org.hibernate.orm:hibernate-core:6.6.9.Final"
 }
 
 tasks.named('test') {
